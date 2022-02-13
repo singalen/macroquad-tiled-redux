@@ -360,7 +360,8 @@ impl AnimationRegistry {
                             frames: frames.iter().map(|it| it.into()).collect(),
                             ordering: 0,
                             // todo: read these from Properties.
-                            max_compression: 40,
+                            max_compression: match tile.properties.get("compression") {                                                   Some(PropertyValue::IntValue(val)) => *val as u32,
+                                _ => 100,                                         },
                             blocks_turn: true,
                             cancel_frame: None
                         };
