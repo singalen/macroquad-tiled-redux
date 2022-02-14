@@ -72,7 +72,7 @@
  <tile id="104">
   <properties>
    <property name="name" value="walk-n"/>
-   <property name="compression" value="50"/>
+   <property name="compression" type="int" value="50"/>
   </properties>
   <animation>
    <frame tileid="104" duration="50"/>
@@ -89,7 +89,7 @@
  <tile id="117">
   <properties>
    <property name="name" value="walk-w"/>
-   <property name="compression" value="50"/>
+   <property name="compression" type="int" value="50"/>
   </properties>
   <animation>
    <frame tileid="117" duration="50"/>
@@ -106,7 +106,7 @@
  <tile id="130">
   <properties>
    <property name="name" value="walk-s"/>
-   <property name="compression" value="50"/>
+   <property name="compression" type="int" value="50"/>
   </properties>
   <animation>
    <frame tileid="130" duration="60"/>
@@ -123,7 +123,7 @@
  <tile id="143">
   <properties>
    <property name="name" value="walk-e"/>
-   <property name="compression" value="50"/>
+   <property name="compression" type="int" value="50"/>
   </properties>
   <animation>
    <frame tileid="143" duration="50"/>
